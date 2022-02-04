@@ -1,0 +1,71 @@
+
+:root{
+    background-color: hsl(207, 100%, 98%);
+}
+
+@media (max-width: 375px){
+    body>header{
+        
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700 ;
+        margin: 30px;  
+      
+        
+    } 
+    .button-header{
+        text-decoration: none;
+        font-size: 12px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 15px;
+        border-color: hsl(322, 100%, 66%);
+        color:hsl(322, 100%, 66%);
+        float:right;
+        
+        
+       
+    }
+    .div-1body{  
+                 
+        height:200px;
+        width:100%;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;        
+        bottom: 100px;   
+        margin-top: 70px;
+        
+       
+    }
+    .buttom2-body{        
+        text-decoration: none;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 15px;
+        color:hsl(207, 100%, 98%);         
+        background-color: hsl(322, 100%, 66%);
+        position: relative;
+        align-items: center;   
+        
+
+    }
+    .p-1body{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+
+    .img-1body{
+        margin-top: 150px;
+    }
+
+
+}
+
