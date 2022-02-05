@@ -26,16 +26,24 @@
 
 /*ESTILOS PARA EL FOOTER*/
 
-html{
+/* html{
     width: 100vw;
     height: 100vh;
 
+} */
+
+body{
+    width: 100%;
+    height: 100%;
 }
 .footer{
     /* background-color: var(--VeryPaleBlue); */
     font-family: var(--body);
     font-weight: 600;
     width: 100%;
+    height: 100%;
+
+
 }
 
 .footer-img{
@@ -75,7 +83,7 @@ footer>.footer-container-section>.footer-Headings{
     -moz-box-shadow: 10px 10px 25px -9px rgba(0,0,0,0.59);
     box-shadow: 10px 10px 25px -9px rgba(0,0,0,0.59);
 }
-.footer-seccion3> div >.footer-btn2{
+.footer-seccion2-2> div >.footer-btn2{
     border-radius: 5px;
 
 }
@@ -84,21 +92,24 @@ footer>.footer-container-section>.footer-Headings{
     margin-top: 200px;
     position: relative;
     color: var(--VeryPaleBlue);
+    width: 100%;
+
 
     /* background-color: var(--VeryDarkCyan); */
 }
 
 .footer-img-top{
     width: 100%;
-    position: absolute;
+    position: absolute; 
     /* top:-60px; */
     /* height: 70%; */
 }
-.footer-seccion3{
+.footer-seccion2-2{
     position: absolute;
     background-color: var(--VeryDarkCyan);
-    top:53px;
+    top:52px;
     padding: 50px 0;
+
     
 }
 .footer-div{
@@ -131,12 +142,40 @@ footer>.footer-container-section>.footer-Headings{
 }
 
 .footer-div2>a{
-    margin-left: 250px;
+    margin-left: 180px;
     text-align: center;
     font-weight: 700;
 }
 
+.footer-seccion2-3{
+    width: 100%;
+    position: relative;
+    background-color: var(--VeryDarkCyan);
+    top:400px;
+    padding: 130px 0  0;
 
+    
+}
+
+.footer-div>img{
+    padding-bottom: 10px;
+
+    
+}
+
+.footer-div-contact{
+    display: flex;
+    padding-bottom: 15px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.footer-redes{
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    column-gap:15px;
+}
 
 
 
@@ -145,6 +184,11 @@ footer>.footer-container-section>.footer-Headings{
     .footer-img-top{
           top:-23px;
     }
-}
 
+    /* .footer-div2>a{
+        margin-left: 350px;
+  
+    }
+*/
+} 
 
