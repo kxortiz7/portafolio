@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root{
+    
+--Pink: hsl(322, 100%, 66%);
+--LightPink: hsl(321, 100%, 78%);
+--LightRed: hsl(0, 100%, 63%);
+
+
+--VeryDarkCyan: hsl(192, 77%, 10%);
+--VeryPaleBlue: hsl(207, 100%, 98%);
+
+
+/*headings*/
+--Headings: 'Poppins', sans-serif;
+
+/*body*/
+--body: 'Open Sans', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS PARA EL FOOTER*/
+
+html{
+    width: 100vw;
+    height: 100vh;
+
+}
+.footer{
+    /* background-color: var(--VeryPaleBlue); */
+    font-family: var(--body);
+    font-weight: 600;
+    width: 100%;
+}
+
+.footer-img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+.footer-container-section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px ;
+    /* justify-content: center; */
+}
+
+footer>.footer-container-section>.footer-Headings{
+    font-family: var(--Headings);
+    font-weight: 700;
+    color: var(--VeryDarkCyan);
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer-btn{
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: var(--Pink);
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: var(--VeryPaleBlue);
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 25px -9px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 10px 25px -9px rgba(0,0,0,0.59);
+    box-shadow: 10px 10px 25px -9px rgba(0,0,0,0.59);
+}
+.footer-seccion3> div >.footer-btn2{
+    border-radius: 5px;
+
+}
+
+.footer-container-section2{
+    margin-top: 200px;
+    position: relative;
+    color: var(--VeryPaleBlue);
+
+    /* background-color: var(--VeryDarkCyan); */
+}
+
+.footer-img-top{
+    width: 100%;
+    position: absolute;
+    /* top:-60px; */
+    /* height: 70%; */
+}
+.footer-seccion3{
+    position: absolute;
+    background-color: var(--VeryDarkCyan);
+    top:53px;
+    padding: 50px 0;
+    
+}
+.footer-div{
+    height: 100%;
+    margin: 0 30px ;
+    /* justify-content: center; */
+}
+.footer-div>h3{
+    text-transform: uppercase;
+}
+.footer-div>p{
+    padding: 10px 0 40px 0 ;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+
+.footer-div2{
+    margin: 0 30px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div2>input{
+    padding: 17px;
+    border-radius: 10px;
+    /* margin-right: 40px; */
+
+}
+
+.footer-div2>a{
+    margin-left: 250px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+
+
+@media screen and (min-width:542px)
+{
+    .footer-img-top{
+          top:-23px;
+    }
+}
+
+
