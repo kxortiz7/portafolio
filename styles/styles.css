@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root{
+    
+--Pink: hsl(322, 100%, 66%);
+--LightPink: hsl(321, 100%, 78%);
+--LightRed: hsl(0, 100%, 63%);
+
+
+--VeryDarkCyan: hsl(192, 77%, 10%);
+--VeryPaleBlue: hsl(207, 100%, 98%);
+
+
+/*headings*/
+--Headings: 'Poppins', sans-serif;
+
+/*body*/
+--body: 'Open Sans', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS PARA EL FOOTER*/
+
+/* html{
+    width: 100vw;
+    height: 100vh;
+
+} */
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    /* background-color: var(--VeryPaleBlue); */
+    font-family: var(--body);
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.footer-img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+.footer-container-section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px ;
+    /* justify-content: center; */
+}
+
+footer>.footer-container-section>.footer-Headings{
+    font-family: var(--Headings);
+    font-weight: 700;
+    color: var(--VeryDarkCyan);
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer-btn{
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: var(--Pink);
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: var(--VeryPaleBlue);
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 25px -9px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 10px 25px -9px rgba(0,0,0,0.59);
+    box-shadow: 10px 10px 25px -9px rgba(0,0,0,0.59);
+}
+.footer-seccion2-2> div >.footer-btn2{
+    border-radius: 5px;
+
+}
+
+.footer-container-section2{
+    margin-top: 200px;
+    position: relative;
+    color: var(--VeryPaleBlue);
+    width: 100%;
+
+
+    /* background-color: var(--VeryDarkCyan); */
+}
+
+.footer-img-top{
+    width: 100%;
+    position: absolute; 
+    /* top:-60px; */
+    /* height: 70%; */
+}
+.footer-seccion2-2{
+    position: absolute;
+    background-color: var(--VeryDarkCyan);
+    top:50px;
+    padding: 40px 0 70px 0;
+
+    
+}
+.footer-div{
+    height: 100%;
+    margin: 0 30px ;
+    /* justify-content: center; */
+}
+.footer-div>h3{
+    text-transform: uppercase;
+}
+.footer-div>p{
+    padding: 10px 0 40px 0 ;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+
+.footer-div2{
+    margin: 0 30px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div2>input{
+    padding: 17px;
+    border-radius: 10px;
+    /* margin-right: 40px; */
+
+}
+
+.footer-div2>a{
+    margin-left: auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.footer-seccion2-3{
+    width: 100%;
+    position: relative;
+    background-color: var(--VeryDarkCyan);
+    top:400px;
+    padding: 130px 0  0;
+
+    
+}
+
+.footer-div>img{
+    padding-bottom: 10px;
+
+    
+}
+
+.footer-div-contact{
+    display: flex;
+    padding-bottom: 15px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.footer-redes{
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    column-gap:15px;
+}
+
+
+
+@media screen and (min-width:542px)
+{
+    .footer-img-top{
+          top:-23px;
+    }
+
+    /* .footer-div2>a{
+        margin-left: auto;
+    } */
+} 
+
+@media screen and (min-width:700px)
+{
+    .footer-seccion2-2{
+        top:70px;
+    }
+} 
+
+
+
+/*Media Querys para desktop*/
+@media screen and (min-width: 1000px) {
+    .footer-seccion2-2, .footer-seccion2-3{
+        top:110px;
+
+    }
+  
+    
+    footer>.footer-container-section>.footer-Headings {
+    
+        font-size: 40px;
+    }
+    
+    .footer-btn {
+        margin-top: 30px;
+        padding: 15px 60px;
+      
+    }
+    .footer-seccion2-2{
+        width: 51%;
+        right: 0;
+        top:115px;
+
+        padding: 50px 0  34px;
+
+        position: absolute;    
+    }
+
+    .footer-seccion2-3{
+        width: 50%;
+        padding: 0;
+
+
+        /* left: 0; */
+
+        /* left: 50%; */
+        
+        position: absolute;
+
+    }
+}
+
+@media screen and (min-width:1105px )and (max-width:1166px)
+{
+    .footer-seccion2-3{
+        padding-bottom: 24px;
+    }
+   
+} 
+
