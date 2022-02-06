@@ -1,9 +1,13 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 :root{
-    background-color: hsl(207, 100%, 98%);
+    background-color: #ffffff;
 }
 
-@media (max-width: 375px){
+
     body>header{
         
         font-family: 'Poppins', sans-serif;
@@ -63,9 +67,190 @@
     
 
     .img-1body{
-        margin-top: 150px;
+        margin-top: 280px;
     }
 
 
-}
+    .comunity1{
+       font-family: 'Open Sans', sans-serif;
+     
+    }
+    .comunity1 img{
+       margin-top: 6.5rem;
+       width: 25px;
+       margin-left: 100px;
+   }
+   .comunity1 h2{
+       font-size:55px;
+       text-align: center;
+       font-weight: 700;
+   }
+   .comunity1 p{
+    font-size:13px;
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
+   }
 
+   .grow-together{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 6rem;
+    text-align: center;
+   }
+   .grow-together h2{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5rem;
+   }
+   .grow-together img{
+       width: 80%;
+   }
+   .grow-together p{
+    font-size:18px;
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+    font-weight: 200;
+    margin: 1rem;
+   }
+   .marcos{
+       width: 100%;
+   }
+
+   .conversations{
+   font-family: 'Open Sans', sans-serif;
+   margin-top: 6rem;
+   text-align: center;
+   }
+   .conversations h2{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5rem;
+   }
+   .conversations img{
+    width: 80%;
+   }
+   .conversations p{
+    font-size:18px;
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+    font-weight: 200;
+    margin: 1rem;
+   }
+   .users{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 6rem;
+    text-align: center;
+    background-color: rgba(246,251,255,255);
+    }
+    .users img{
+     width: 80%;
+    }
+    .users h2{
+     font-size: 22px;
+     text-align: center;
+     font-weight: 700;
+     margin-top: 5rem;
+    }
+    .users p{
+     font-size:18px;
+     text-align: center;
+     color: hsl(192, 100%, 9%);
+     font-weight: 200;
+     margin: 1rem;
+    }
+    .build-comunity {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        margin-top: 5rem;
+        text-align: center;
+
+    }
+    .button-end{
+        text-decoration: none;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 15px;
+        color:hsl(207, 100%, 98%);         
+        background-color: hsl(322, 100%, 66%);
+        position: relative;
+        align-items: center; 
+    }
+
+
+@media (min-width: 370px){
+   .comunity1{
+       margin-top: 3rem;
+       display: flex;
+       justify-content: space-evenly;
+       font-family: 'Open Sans', sans-serif; 
+   }
+   .comunity1 img{
+       width: 40px;
+   }
+   .comunity1 h2{
+    font-size:65px;
+    font-weight: 700;
+   }
+   .grow-together{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(246,251,255,255);
+    display: flex;
+    flex-direction: row-reverse;
+   
+   }
+   .grow-together p{
+   text-align: justify;
+   margin: 3rem;
+   }
+   .grow-together h2{
+    font-size:35px;
+    text-align: justify;
+    margin: 3rem;
+    }
+   .grow-together img{
+       width:100%;
+   }
+   .conversations{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+   }
+   .conversations p{
+    text-align: justify;
+    margin: 3rem;
+    }
+   .conversations h2{
+    font-size:35px;
+    text-align: justify;
+    margin: 3rem;
+    }
+   .conversations img{
+    width: 100%;
+       }
+       .users{
+        font-family: 'Open Sans', sans-serif;
+        background-color: rgba(246,251,255,255);
+        display: flex;
+        flex-direction: row-reverse;      
+       }
+       .users p{
+        text-align: justify;
+        margin: 3rem;
+        }
+        .users h2{
+        font-size:35px;
+        text-align: justify;
+        margin: 3rem;
+        }
+       .users img{
+        width: 100%;
+        }
+        .button-end{
+        font-family: 'Poppins', sans-serif;
+        }
+}
